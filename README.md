@@ -7,7 +7,11 @@
 dependencies:
 
 ```bash
+Pinia
 
+Nuxt UI
+
+VueUse
 ```
 
 

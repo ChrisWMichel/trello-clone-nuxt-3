@@ -1,0 +1,29 @@
+.board {
+    @apply flex flex-row items-start;
+  }
+  
+  .board-wrapper {
+    @apply p-4 h-full overflow-auto;
+  }
+  
+  .column {
+    @apply flex-1 p-4 mr-4 rounded bg-gray-200 dark:bg-gray-600 dark:text-white;
+    min-width: 350px;
+  }
+  
+  .column-header {
+    @apply flex items-center justify-between mb-2 font-bold;
+  }
+  
+  .task-bg {
+    @apply absolute inset-0;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .task-view {
+    @apply flex flex-col flex-grow items-center justify-between px-4 dark:text-white;
+  }
+  
+  .task-wrapper {
+    @apply flex justify-center items-center max-w-2xl bg-gray-600 m-32 mx-auto py-4 rounded;
+  }
